@@ -9,8 +9,12 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.1",
+    "count-step": "file:",
     "expo": "~52.0.37",
+    "expo-sensors": "~14.0.2",
     "expo-status-bar": "~2.0.1",
+    "lottie-react-native": "^7.2.2",
     "react": "18.3.1",
     "react-native": "0.76.7"
   },
