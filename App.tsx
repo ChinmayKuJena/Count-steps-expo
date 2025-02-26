@@ -112,7 +112,7 @@ export default function App() {
 
       {/* ✅ Theme Toggle Button */}
       <TouchableOpacity style={[styles.button, theme === "dark" ? styles.darkButton : styles.lightButton]} onPress={toggleTheme}>
-        <Text style={styles.buttonText}>Switch to {theme === "light" ? "Dark" : "Light"} Mode</Text>
+        <Text style={styles.buttonText}>Switch to {theme === "light" ? "Dark" : "Light☀️"} Mode</Text>
       </TouchableOpacity>
     </View>
   );
